@@ -12,14 +12,14 @@ import Footer from '../Footer';
 function Home() {
     return (
        <>
-       <Navbar></Navbar>
+       
        <Hero></Hero>
        <Awards></Awards>
        <Stats></Stats>
        <Pricing></Pricing>
        <Education></Education>
        <OpenAcc></OpenAcc>
-       <Footer></Footer>
+       
 
        
        </>
