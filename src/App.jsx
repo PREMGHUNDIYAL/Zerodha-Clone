@@ -10,7 +10,7 @@ import Universe from './landing_page/product/Universe'
 import Navbar from './landing_page/Navbar'
 import Footer from './landing_page/Footer'
 import Notfound from './landing_page/Notfound'
-
+import ProductPage from './landing_page/product/ProductPage'
 function App() {
   
   return (
@@ -21,7 +21,7 @@ function App() {
       <Route path ="/" element ={<Home />}></Route>
       <Route path ="/signup" element ={<Signup />}></Route>
       <Route path ="/about" element ={< About/>}></Route>
-      <Route path ="/product" element ={<Universe />}></Route>
+      <Route path ="/product" element ={<ProductPage />}></Route>
       <Route path ="/pricing" element ={<PricingPage />}></Route>
       <Route path ="/support" element ={<Support />}></Route>
       <Route path ="/*" element ={<Notfound />}></Route>
